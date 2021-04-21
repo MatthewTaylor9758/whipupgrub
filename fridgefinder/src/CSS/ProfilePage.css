@@ -1,0 +1,49 @@
+#fridge_field {
+  position: sticky;
+  top: 64px;
+  height: calc(100vh - 64px);
+  background: linear-gradient(blue, white);
+  display: flex;
+  justify-content: center;
+}
+
+#recipe_field {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  background: linear-gradient(135deg, rgba(0, 0, 255, .4), white)
+}
+
+#recipes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-between;
+  width: 80%;
+  height: 80%;
+}
+
+#recipe-row {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: calc(100% / 3);
+  max-width: 100%;
+  max-height: calc(100% / 3);
+}
+
+#recipe-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#recipe-item img {
+  height: 100%;
+  max-height: 100%;
+  width: auto;
+}
